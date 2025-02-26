@@ -1,0 +1,71 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Centers horizontally */
+  justify-content: center; /* Centers vertically */
+  text-align: center;
+  width: 100vw; /* Full width */
+  height: 100vh; /* Full screen height */
+  padding-top: 100px; /* Push content below header */
+  gap: 20px; /* Space between items */
+}
+
+/* Ensures list items are centered */
+.container ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+/* Title Styling */
+.title {
+  color: #282c34;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+/* Search Bar */
+.search {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 300px;
+  font-size: 16px;
+}
+
+/* Search Button */
+.searchBtn {
+  padding: 10px 15px;
+  background-color: #61dafb;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.searchBtn:hover {
+  background-color: #4fa3d1;
+}
+
+/* List Styling */
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+ul li {
+  margin: 10px 0;
+}
+
+ul li a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+
+ul li a:hover {
+  color: #61dafb;
+}
